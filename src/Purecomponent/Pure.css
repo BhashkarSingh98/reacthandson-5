@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p1{
+    margin-top: 50px;
+}
+.p2{
+    text-align: center;
+}
+.p3{
+    background-color: aquamarine;
+    height: 350px;
+}
+.p4{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+
+}
+.p5{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.p6{
+background-color: white;
+margin-bottom: 20px;
+width: 50%;
+margin: auto;
+border-radius: 30px;
+text-align: center;
+}
+.p8{
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border:2px solid aliceblue ;
+    cursor: pointer;
+    transition: .01s;
+    margin-bottom: 20px;
+
+}
+.p8:focus{
+    color: red;
+    border: 2px solid rgba(122,111,211,1);
+    box-shadow: 0px 0px 0px 1px rgba(112,111,211,1);
+    animation: click .1s forwards;
+
+}
+@keyframes click {
+    100%{
+        box-shadow: 0px 0px 50px 20px rgba(112,111,211,0);
+    }
+}

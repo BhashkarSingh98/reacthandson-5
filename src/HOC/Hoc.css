@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.b1{
+    text-align: center;
+    margin-top: 30px;
+}
+.b2{
+    height: 300px;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+.b4{
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+.b5{
+    height: 100px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+.b6{
+    padding-top: 10px;
+
+
+}
+.b7{
+    height: 30px;
+    width: 70px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border:2px solid aliceblue ;
+    cursor: pointer;
+    transition: .01s;
+
+}
+.b7:focus{
+    color: red;
+    border: 2px solid rgba(122,111,211,1);
+    box-shadow: 0px 0px 0px 1px rgba(112,111,211,1);
+    animation: click .1s forwards;
+
+}
+@keyframes click {
+    100%{
+        box-shadow: 0px 0px 50px 20px rgba(112,111,211,0);
+    }
+}
+.gunshot{
+    color: red;
+
+}
